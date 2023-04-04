@@ -1,0 +1,18 @@
+.cw
+{
+    width: 50%;
+}
+textarea
+{
+    resize: none;
+}
+
+.container
+{
+    border: 1px solid black;
+}
+
+.heading
+{
+    margin-top: 4%;
+}

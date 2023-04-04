@@ -1,0 +1,155 @@
+<mat-toolbar>
+    <mat-toolbar-row class="justify-content-between">
+      <button mat-icon-button (click)="toggleSidebar()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <div class="row mr-2 ml-auto">
+        <ul class="row m-0 align-items-center">
+          <li>
+            <button
+              mat-button
+              [matMenuTriggerFor]="menu"
+              class="user mt-2 d-flex align-items-center"
+            >
+              <img src="../../../../../assets/admin kbn.PNG" alt="" class="user-image mr-1 p-2" />
+  
+              Admin
+              <mat-icon class="user-image-icon ml-1"
+                >keyboard_arrow_down</mat-icon
+              >
+            </button>
+            <mat-menu #menu="matMenu">
+              <button (click)="logout()" mat-menu-item>
+                <mat-icon>exit_to_app</mat-icon>
+                Logout
+              </button>
+            </mat-menu>
+          </li>
+        </ul>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Admin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="./home">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li> -->
+                 <!-- <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="./workSpace">Workspace</a>
+                </li> -->
+                <!-- <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="./services">Services</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="./contact">Contact</a>
+                </li>  -->
+                <!-- <li class=" btn-primary nav-item text-white" role="button">
+                    <a class="nav-link text-white" (click)="logout()">logout</a>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+<!-- </nav> -->
+
+
+<!-- <div class="vertical-nav bg-white" id="sidebar">
+    <div class="py-4 px-3 mb-4 bg-light">
+        <div class="media d-flex align-items-center">
+            <img src="assets\admin kbn.PNG" alt="..." width="80" height="80" class="mr-3 rounded-circle img-thubnail shadow-sm">
+            <div class="media-body">
+                <h4 class="m-0">Admin</h4>
+                <p class="font-weight-normal text-muted mb-0">Web developer</p>
+            </div>
+        </div>
+
+    </div>
+    <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Dashboard</p>
+    <ul class="nav flex-column bg-white mb-0">
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark bg-light" routerLink="./home">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>Home
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark bg-light">
+                <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>about
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark bg-light">
+                <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>Services
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark bg-light">
+                <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>Gallery
+            </a>
+        </li>
+    </ul> -->
+    <!-- <p class="text-grey font-weight-bold text-uppercase px-3 small py-4 mb-0">Charts</p>
+    <ul class="nav flex-column bg-white mb-0">
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark">
+                <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>area Charts</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark">
+                <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i>bar Charts</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark">
+                <i class="fa fa-pie-chart mr-3 text-primary fa-fw"></i>pie Charts</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link text-dark">
+                <i class="fa fa-line-chart mr-3 text-primary fa-fw"></i>line Charts</a>
+        </li>
+    </ul>
+</div> -->
+<!-- <div class="page-content p-5" id="content">
+    <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4">
+        <i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
+    <h2 class="display-4 text-dark">Bootstrap vertical-nav</h2>
+    <p class="lead text-dark mb-0">Build a fixed sidebar using Bootstrap 4 vertical-navigation and media objects.</p>
+    <div class="separator"></div>
+    <div class="row text-dark">
+        <div class="col-lg-7"> -->
+
+            <!-- <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, at! Exercitationem nesciu nt nihil autem! Repellendus quam inventore ad voluptatem maiores ipsum praesentium laboriosam sequi, similique quo est sed, dignissimos fuga.</p>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi sed esse dolor velit error quaerat ut, minima libero delectus laboriosam culpa aliquam et distinctio assumenda corrupti impedit reiciendis nihil aliquid?</p>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perspiciatis perferendis aperiam consectetur laboriosam ullam nesciunt corporis provident culpa, molestias odio officiis vitae esse voluptatum quibusdam expedita omnis at natus?</p>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt nostrum? Et esse commodi, voluptatibus, voluptatem quidem quis qui accusantium ad voluptas cum expedita ea dignissimos aliquam quisquam excepturi. Enim.</p>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa similique nobis, optio distinctio quasi debitis neque labore obcaecati vitae, cum sapiente architecto reiciendis nesciunt. Quod illo doloribus impedit quasi quam!</p>
+
+        </div>
+        <div class="col-lg-5">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam magnam incidunt ratione nemo, dolor itaque vero recusandae ex, nam repellat saepe dolore aliquid hic! Ducimus nesciunt sunt sit recusandae temporibus!</p>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam obcaecati vero magni molestiae veritatis id iure quos, cupiditate ipsam. Nostrum nisi optio unde ipsum delectus quisquam excepturi quibusdam est placeat.</p>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam obcaecati vero magni molestiae veritatis id iure quos, cupiditate ipsam. Nostrum nisi optio unde ipsum delectus quisquam excepturi quibusdam est placeat.</p>
+
+        </div>
+    </div>
+</div> -->

@@ -1,0 +1,48 @@
+<div class=" m-1" *ngFor="let item of Workspace" (click)="getWorkspaceName(item.workSpaceName)">
+    <div class="row m-3">
+        <div class="col text-capitalize fs-2">
+            {{item.workSpaceName}}
+        </div>
+    </div> 
+    <div class="alert alert-primary" role="alert" *ngIf="cardMoveSuccess">
+        You have changed the card status successfuly
+      </div>
+      <div class="alert alert-danger" role="alert" *ngIf="cardMoveFailed">
+        Task status failed be changed
+      </div>
+    <div class="row m-5" cdkDropListGroup>
+        <div class="">
+            <mat-card class="example-container mat-elevation-z8 col" *ngFor="let element of item.pillars"
+            cdkDropList [cdkDropListData]="element.cards" (cdkDropListDropped)="onDrop($event, element.pillarName)">
+
+            <mat-card-title class="text-center mb-5"  
+                [ngClass]="{'text-secondary':element.pillarName === 'ToDo', 'text-primary':element.pillarName === 'Progress', 
+                'text-warning':element.pillarName === 'Review', 'text-success':element.pillarName === 'Done'}">
+            {{element.pillarName}}
+            </mat-card-title>
+            <mat-card-content>
+                <div class="">
+                    <mat-card class="example-card1 m-2 border " cdkDrag *ngFor="let card of element.cards"
+                        [ngClass]="{'border-secondary':element.pillarName === 'ToDo', 'border-primary':element.pillarName === 'Progress', 
+                            'border-warning':element.pillarName === 'Review', 'border-success':element.pillarName === 'Done'}">
+                        <mat-card-header>
+                            <mat-card-title>{{card.assign}}</mat-card-title>
+                            <mat-card-subtitle>Card {{card.cardId}}</mat-card-subtitle>
+                         </mat-card-header>
+                        <mat-card-content>
+                            <h2>{{card.cardName}}</h2>
+                            <h2>
+                                {{card.summary}}
+                            </h2>
+                            <h2>{{card.priority}}</h2>     
+                        </mat-card-content>
+                        <mat-card-footer>
+                            <p>{{card.deadline}}</p>
+                        </mat-card-footer>                  
+                    </mat-card>
+                </div>
+            </mat-card-content>
+        </mat-card>
+        </div>
+    </div> 
+</div>

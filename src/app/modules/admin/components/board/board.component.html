@@ -1,0 +1,15 @@
+<h1 class="text-center heading">Add New Board</h1>
+<div class="card custom1 text-center">
+<form class="myForm" #boardForm="ngForm"  (ngSubmit)="sendBoardData(boardForm)">
+    <div class="form-group custom">
+      <label for="workSpaceName" class="mb-2 fs-6">WorkSpace Name</label>
+      <input type="text" class="form-control"  #workSpaceName (ngModel)="workSpaceName" name="workSpaceName" id="workSpaceName"  value="myWorkSpace" readonly>
+    </div>
+    <div class="form-group custom">
+      <label for="pillarName" class="mb-2 fs-6">Board Name</label>
+      <input type="text" class="form-control" id="pillarName" #pillarName  (ngModel)="pillarName" name="pillarName" placeholder="Enter Board Name...">
+    </div>
+    
+    <button type="submit" class="btn btn-primary mb-2 button">Create</button>
+  </form>
+  </div>
