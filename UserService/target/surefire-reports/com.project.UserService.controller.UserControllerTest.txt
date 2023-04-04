@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.project.UserService.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 286.858 s - in com.project.UserService.controller.UserControllerTest

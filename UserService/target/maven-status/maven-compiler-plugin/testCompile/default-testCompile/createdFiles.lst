@@ -1,0 +1,4 @@
+com\project\UserService\controller\UserControllerTest.class
+com\project\UserService\UserServiceApplicationTests.class
+com\project\UserService\service\UserServiceTest.class
+com\project\UserService\repository\UserRepositoryTest.class

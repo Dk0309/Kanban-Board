@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.project.UserService.repository.UserRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 213.347 s <<< FAILURE! - in com.project.UserService.repository.UserRepositoryTest
+givenUserToDeleteShouldDeleteReturnSuccess  Time elapsed: 2.015 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.project.UserService.repository.UserRepositoryTest.givenUserToDeleteShouldDeleteReturnSuccess(UserRepositoryTest.java:56)
+
+givenUserToDeleteShouldDeleteReturnFailure  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.project.UserService.repository.UserRepositoryTest.givenUserToDeleteShouldDeleteReturnFailure(UserRepositoryTest.java:84)
+
+givenUserToSaveUserShouldReturnSuccess  Time elapsed: 0.24 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.project.UserService.repository.UserRepositoryTest.givenUserToSaveUserShouldReturnSuccess(UserRepositoryTest.java:46)
+

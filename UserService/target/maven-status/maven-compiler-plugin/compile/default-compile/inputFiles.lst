@@ -1,0 +1,13 @@
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\proxy\UserProxy.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\service\UserServiceImpl.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\config\MessageConfiguration.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\domain\User.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\UserServiceApplication.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\service\UserService.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\repository\UserRepository.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\swagger\SwaggerConfig.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\rabbitMQ\domain\UserDTO.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\config\Producer.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\exception\UserAlreadyExistsException.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\controller\UserController.java
+A:\Project\kanban_board_project\KanBanBoard\UserService\src\main\java\com\project\UserService\exception\UserNotFoundException.java

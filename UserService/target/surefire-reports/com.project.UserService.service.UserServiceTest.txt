@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.project.UserService.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.project.UserService.service.UserServiceTest
+givenUserToSaveUserShouldReturnSuccess  Time elapsed: 0 s  <<< ERROR!
+com.project.UserService.exception.UserAlreadyExistsException
+	at com.project.UserService.service.UserServiceTest.givenUserToSaveUserShouldReturnSuccess(UserServiceTest.java:62)
+

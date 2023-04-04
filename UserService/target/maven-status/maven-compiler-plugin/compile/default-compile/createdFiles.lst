@@ -1,0 +1,10 @@
+com\project\UserService\exception\UserAlreadyExistsException.class
+com\project\UserService\proxy\UserProxy.class
+com\project\UserService\swagger\SwaggerConfig.class
+com\project\UserService\UserServiceApplication.class
+com\project\UserService\domain\User.class
+com\project\UserService\repository\UserRepository.class
+com\project\UserService\service\UserServiceImpl.class
+com\project\UserService\service\UserService.class
+com\project\UserService\exception\UserNotFoundException.class
+com\project\UserService\controller\UserController.class
