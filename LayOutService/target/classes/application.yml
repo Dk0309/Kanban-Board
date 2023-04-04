@@ -1,0 +1,19 @@
+server:
+  port : 8083
+  error:
+    include-message : always
+
+spring:
+  data:
+    mongodb:
+      database : workspacedb
+      uri : mongodb://localhost:27017/
+
+  application:
+    name: layout-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    fetchRegistry: true
+    registerWithEureka: true
