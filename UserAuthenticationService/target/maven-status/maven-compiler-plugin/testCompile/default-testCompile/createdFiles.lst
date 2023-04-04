@@ -1,0 +1,4 @@
+com/project/UserAuthenticationService/controller/UserControllerTest.class
+com/project/UserAuthenticationService/repository/UserRepositoryTest.class
+com/project/UserAuthenticationService/UserAuthenticationServiceApplicationTests.class
+com/project/UserAuthenticationService/service/UserServiceTest.class
